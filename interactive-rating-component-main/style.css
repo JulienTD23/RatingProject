@@ -1,0 +1,161 @@
+html, body {
+    background-color: hsl(216, 12%, 8%); 
+    font-family: 'Overpass';
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#rateState {
+    background-color: hsl(213, 19%, 18%);
+    width: 40%;
+    padding: 4%;
+    margin-top: 25vh;
+    border-radius: 1.5rem;
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+}
+
+h1 {
+    margin-bottom: auto;
+}
+
+#star {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 50%;
+    background-color: #3a4655;
+    overflow: hidden;
+}
+
+#star img {
+    width: 35%;
+    height: 35%;
+    object-fit: contain;
+}
+
+p {
+    color:hsl(217, 12%, 63%);
+    line-height: 1.5rem;
+
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: .6rem;
+}
+
+li {
+    text-align: center;
+    line-height: 3rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #3a4655;
+    font-weight: 700;
+}
+
+li:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(216, 12%, 8%);
+}
+
+#submit {
+    display: block;
+    margin: auto;
+    padding: .7rem;
+    appearance: none;
+    text-decoration: inherit;
+    color: hsl(216, 12%, 8%);
+    font: inherit;
+
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 2rem;
+    border: 0;
+
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    font-weight: 750;
+}
+
+#submit:hover {
+    background-color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.selected {
+    background-color: white;
+    color: hsl(216, 12%, 8%);
+}
+
+.selected:hover {
+    background-color: white;
+    color: hsl(216, 12%, 8%);
+}
+
+#thankState {
+    background-color: hsl(213, 19%, 18%);
+    width: 40%;
+    padding: 4%;
+    margin-top: 25vh;
+    border-radius: 1.5rem;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#rateBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    line-height: 1.5rem;
+    width: 55%;
+    height: 1rem;
+    padding: .5rem 1rem;
+    margin: 0;
+    border-radius: 50px;
+    background-color: #3a4655;
+    font-weight: 700;
+    overflow: hidden; 
+}
+
+#content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    flex-wrap: wrap;
+}
+
+#content p {
+    color: hsl(25, 53%, 50%);
+    font-size: 1rem;
+}
